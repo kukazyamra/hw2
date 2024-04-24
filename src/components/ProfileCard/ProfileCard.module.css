@@ -1,0 +1,11 @@
+.profile {
+    width: 300px;
+    text-align: center;
+    border: 5px solid lightseagreen;
+    border-radius: 25%;
+    padding: 20px;
+}
+
+.avatar {
+    width: 220px;
+}
