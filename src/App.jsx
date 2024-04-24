@@ -8,14 +8,14 @@ import htmlImg from "./assets/images/html.png";
 import avatarImg from "./assets/images/avatar.jpg";
 import ProfileCard from "./components/ProfileCard/ProfileCard.jsx";
 
-function App() {
-    const skills = [{name: 'HTML', img: htmlImg, alt: 'HTML logo'},
-        {name: 'CSS', img: cssImg, alt: 'CSS logo'},
-        {name: 'JavaScript', img: javascriptImg, alt: 'JavaScript logo'},
-        {name: 'PHP', img: phpImg, alt: 'PHP logo'},]
-    const desiredSkills = ['NodeJS', 'TypeScript', 'React', 'PostgreSQL', 'ExpressJS', 'Docker',
-        'Redux', 'Webpack', 'Git', 'Redis']
+const skills = [{name: 'HTML', img: htmlImg, alt: 'HTML logo'},
+    {name: 'CSS', img: cssImg, alt: 'CSS logo'},
+    {name: 'JavaScript', img: javascriptImg, alt: 'JavaScript logo'},
+    {name: 'PHP', img: phpImg, alt: 'PHP logo'},]
+const desiredSkills = ['NodeJS', 'TypeScript', 'React', 'PostgreSQL', 'ExpressJS', 'Docker',
+    'Redux', 'Webpack', 'Git', 'Redis']
 
+function App() {
     return (
         <>
             <ProfileCard name='Ослин Артем Андреевич' img={avatarImg} alt='avatar'/>
